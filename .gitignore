@@ -10,6 +10,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+/public/*
 !/log/.keep
 !/tmp/.keep
 
@@ -18,7 +19,7 @@
 !/storage/.keep
 
 .byebug_history
-.env
+
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
